@@ -2,7 +2,7 @@
 
 This is a day hack (few hours actually) project to see how one can use a 3rd party IoC container in a container-less framework (Kohana).
 
-> This project isn't production ready. This is just for demonstration.
+> This project isn't production ready. This is just for a demonstration.
 
 The goals of this project are
 
@@ -13,9 +13,9 @@ The goals of this project are
 
 #### Preparation
 
-Since PHP-DI uses [Composer](https://getcomposer.org/), you need to use it. If you don't have a Composer yet, please visit this [link](https://getcomposer.org/doc/00-intro.md) for installation guide. You're already late to the party.
+Since PHP-DI uses [Composer](https://getcomposer.org/), please visit this [link](https://getcomposer.org/doc/00-intro.md) for installation guide and install it.
 
-Place a **composer.json** file in your root directory and add the following content.
+Place **composer.json** file in your root directory and add the following content.
 
 ```json
 {
@@ -25,7 +25,7 @@ Place a **composer.json** file in your root directory and add the following cont
 }
 ```
 
-Open your console and run ```composer install```. 
+Open your console and run ```composer install```.
 
 Open **modules/application/bootstrap.php** file and add ```require_once ROOT . "/vendor/autoload.php";``` right below ```ini_set('unserialize_callback_func', 'spl_autoload_call');```
 
