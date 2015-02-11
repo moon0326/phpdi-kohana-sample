@@ -44,7 +44,7 @@ You can define your dependencies in **phpdi/config/dependencies.php**. For more 
 
 #### Sample Controller and Classes
 
-Please refer to [this](http://) project for a sample controller and dependency.
+Please copy and paste files in the *demo* directory for a sample controller and dependency.
 
 #### Changes
 
