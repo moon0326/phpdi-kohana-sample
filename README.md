@@ -6,8 +6,9 @@ This is a day hack (few hours actually) project to see how one can use a 3rd par
 
 The goals of this project are
 
-1. How easy it is to add a container to a framework
-2. Where to compose all the dependencies (Composition Root)
+1. How easy it is to add a container to a framework.
+2. Where to compose all the dependencies (Composition Root).
+3. Constructor injection.
 
 
 #### Preparation
