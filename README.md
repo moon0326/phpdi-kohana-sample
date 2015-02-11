@@ -27,7 +27,7 @@ Place **composer.json** file in your root directory and add the following conten
 
 Open your console and run ```composer install```.
 
-Open **modules/application/bootstrap.php** file and add ```require_once ROOT . "/vendor/autoload.php";``` right below ```ini_set('unserialize_callback_func', 'spl_autoload_call');```
+Open **bootstrap.php** file and add ```require_once DOCROOT . "/vendor/autoload.php";``` right below ```ini_set('unserialize_callback_func', 'spl_autoload_call');```
 
 #### Installing Kohana Module
 
@@ -44,7 +44,8 @@ You can define your dependencies in **phpdi/config/dependencies.php**. For more 
 
 #### Sample Controller and Classes
 
-Please copy and paste files in the *demo* directory for a sample controller and dependency.
+1. Please copy and paste files in the *demo* directory for a sample controller and dependency.
+2. Create a new route for the demo controller and test it. You should see "Demo\User\APIUserService" as its output.
 
 #### Changes
 
