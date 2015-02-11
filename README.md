@@ -40,11 +40,11 @@ Open **bootstrap.php** file and add ```require_once DOCROOT . "/vendor/autoload.
 
 #### Dependency Configuration
 
-You can define your dependencies in **phpdi/config/dependencies.php**. For more about service definiton formats, please refer to this [link](http://php-di.org/doc/definition.html) and PHP-DI documentation.
+You can define your dependencies in **phpdi/config/dependencies.php**. For more information about service definiton formats, please refer to this [link](http://php-di.org/doc/definition.html) and PHP-DI documentation.
 
 #### Sample Controller and Classes
 
-1. Please copy and paste files in the *demo* directory for a sample controller and dependency.
+1. Please copy and paste files in the *demo* directory to your application/classes directory.
 2. Create a new route for the demo controller and test it. You should see "Demo\User\APIUserService" as its output.
 
 #### Changes
